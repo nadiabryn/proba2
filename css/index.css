@@ -1,0 +1,101 @@
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header nav {
+    display: fixed;
+}
+
+header nav .navbar-brand {
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+/* header nav #navbarNav{
+    display:flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: right;
+
+} */
+
+header nav div .navbar-nav .nav-link {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+main div .jumbotron .jumbotron-fluid {
+    padding: 40px auto;
+}
+
+.display-4 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+main div .lead {
+    text-align: justify;
+}
+
+main h1 {
+    margin: 80px auto;
+}
+
+main #jumbo-title {
+    margin: 0 auto 30px;
+}
+
+
+.float-right {
+    float: right;
+    margin: 5px 5px 5px 15px;
+}
+
+.float-left {
+    float: left;
+    margin: 5px 15px 5px 5px;
+}
+
+#main #offers .offers-container {
+    height: 250px;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+#main #offers .offers-container .title-of-offers-container {
+    text-align: center;
+    font-weight: bold;
+}
+
+#main #offers .offers-container .offer description {
+    padding: 3px;
+}
+
+/* #exampleFormControlInput1,
+#exampleFormControlInput2 {
+    width: 50%;
+} */
+
+#application .application-backgroung {
+    background-image: url(../img/form.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#application form .form-group {
+    margin: 15% 20%;
+}
+
+#application .application-backgroung .form-group{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer .footer {
+    background-color: lightgrey;
+    height:200px;
+}
