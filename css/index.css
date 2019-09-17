@@ -188,6 +188,14 @@ main #jumbo-title {
     align-items: center;
 }
 
+#main .time-button{
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+}
+
 #application .application-backgroung {
 
     height: 300px;
@@ -208,8 +216,6 @@ main #jumbo-title {
   background-position: center;
   background-size: cover;
 }
-
-
 
 #application form .form-group {
     margin: 15% 20%;
@@ -252,4 +258,25 @@ footer a {
 
 footer {
     text-align: center;
+}
+
+
+/* date and clock */
+.clock {
+	display: flex;
+	position: relative;
+	align-items: center;
+    justify-content: center;
+	/* width: 640px;
+	height: 480px; */
+
+}
+
+.digital-clock, .date {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #9ac4dc;
 }
