@@ -30,12 +30,5 @@ const clock = () => {
 setInterval(clock, 1000);
 
 
-//     Swal.fire({
-// position: 'top-end',
-//   title: 'Гарячі пропозиції',
-//   html: '<p>Гірськолижний курорт Шамон</p><br>'+
-//         '<p>Тиждень у Нью-Йорку</p><br>',
-//   showConfirmButton: true,
 
-// })
 
